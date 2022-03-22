@@ -21,16 +21,23 @@
 </script> 
 
 <main>
-		<p on:click={changeHeart} class="footnote">Made with {currentHeart}
+		<p class="footnote">made with {currentHeart}
       and <a target="_blank" href="https://svelte.dev">Svelte!</a></p>
-</main>
+      <p class="copy">&copy; 2022, <b>arcturus.</b> </p>
+    </main>
 
 <style>
   .footnote {
     text-align: center;
     font-size: 90%;
-    color: #777;
-    margin-top: 10px;
+    color: rgb(141, 141, 141);
+    margin-top: 12.5px;
+  }
+  .copy {
+    text-align: center;
+    font-size: 75%;
+    color: #fff3;
+    margin-top: 2.5px;
   }
   a {
     color: #ff3e00;
